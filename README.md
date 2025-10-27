@@ -1,3 +1,26 @@
+## rosidl_rust (kilted) - 0.4.8-1
+
+The packages in the `rosidl_rust` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted rosidl_rust` on `Mon, 27 Oct 2025 05:45:38 -0000`
+
+The `rosidl_generator_rs` package was released.
+
+Version of package(s) in repository `rosidl_rust`:
+
+- upstream repository: https://github.com/ros2-rust/rosidl_rust.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.8-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_rust (rolling) - 0.4.8-1
 
 The packages in the `rosidl_rust` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling rosidl_rust` on `Mon, 27 Oct 2025 05:08:25 -0000`
