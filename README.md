@@ -1,3 +1,26 @@
+## rosidl_rust (humble) - 0.4.11-1
+
+The packages in the `rosidl_rust` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble rosidl_rust` on `Fri, 20 Feb 2026 13:59:16 -0000`
+
+The `rosidl_generator_rs` package was released.
+
+Version of package(s) in repository `rosidl_rust`:
+
+- upstream repository: https://github.com/ros2-rust/rosidl_rust.git
+- release repository: https://github.com/ros2-gbp/rosidl_rust-release.git
+- rosdistro version: `0.4.10-1`
+- old version: `0.4.10-1`
+- new version: `0.4.11-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_rust (humble) - 0.4.10-1
 
 The packages in the `rosidl_rust` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble rosidl_rust` on `Wed, 21 Jan 2026 20:35:24 -0000`
