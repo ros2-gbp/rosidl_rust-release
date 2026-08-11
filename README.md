@@ -1,3 +1,26 @@
+## rosidl_rust (rolling) - 0.5.0-2
+
+The packages in the `rosidl_rust` repository were released into the `rolling` distro by running `/home/runner/work/_actions/esteve/release-ros-robot/v0/.pixi/envs/default/bin/bloom-release --rosdistro rolling --track rolling --non-interactive --no-pull-request --override-release-repository-url https://github.com/ros2-gbp/rosidl_rust-release.git rosidl_rust` on `Tue, 11 Aug 2026 17:21:31 -0000`
+
+The `rosidl_generator_rs` package was released.
+
+Version of package(s) in repository `rosidl_rust`:
+
+- upstream repository: https://github.com/ros2-rust/rosidl_rust.git
+- release repository: https://github.com/ros2-gbp/rosidl_rust-release.git
+- rosdistro version: `0.4.12-2`
+- old version: `0.5.0-1`
+- new version: `0.5.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_rust (lyrical) - 0.5.0-1
 
 The packages in the `rosidl_rust` repository were released into the `lyrical` distro by running `/home/runner/work/_actions/esteve/release-ros-robot/v0/.pixi/envs/default/bin/bloom-release --rosdistro lyrical --track lyrical --non-interactive --no-pull-request --override-release-repository-url https://github.com/ros2-gbp/rosidl_rust-release.git rosidl_rust` on `Tue, 11 Aug 2026 15:50:09 -0000`
