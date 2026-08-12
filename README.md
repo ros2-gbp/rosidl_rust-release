@@ -1,3 +1,26 @@
+## rosidl_rust (humble) - 0.5.0-1
+
+The packages in the `rosidl_rust` repository were released into the `humble` distro by running `/home/runner/work/_actions/esteve/release-ros-robot/v0/scripts/bloom_release.py --rosdistro humble --track humble --non-interactive --no-pull-request --override-release-repository-url https://github.com/ros2-gbp/rosidl_rust-release.git rosidl_rust` on `Wed, 12 Aug 2026 13:10:09 -0000`
+
+The `rosidl_generator_rs` package was released.
+
+Version of package(s) in repository `rosidl_rust`:
+
+- upstream repository: https://github.com/ros2-rust/rosidl_rust.git
+- release repository: https://github.com/ros2-gbp/rosidl_rust-release.git
+- rosdistro version: `0.4.12-1`
+- old version: `0.4.12-1`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_rust (jazzy) - 0.5.0-1
 
 The packages in the `rosidl_rust` repository were released into the `jazzy` distro by running `/home/runner/work/_actions/esteve/release-ros-robot/v0/scripts/bloom_release.py --rosdistro jazzy --track jazzy --non-interactive --no-pull-request --override-release-repository-url https://github.com/ros2-gbp/rosidl_rust-release.git rosidl_rust` on `Wed, 12 Aug 2026 13:08:15 -0000`
