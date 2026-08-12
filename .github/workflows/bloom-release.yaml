@@ -19,6 +19,8 @@ jobs:
         include:
           - rosdistro: rolling
             track: rolling
+          - rosdistro: lyrical
+            track: lyrical
           - rosdistro: kilted
             track: kilted
           - rosdistro: jazzy
@@ -32,13 +34,13 @@ jobs:
       BLOOM_GITHUB_USER: ${{ secrets.BLOOM_GITHUB_USER }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           persist-credentials: false
 
       - name: Run bloom-release (${{ matrix.rosdistro }})
-        uses: esteve/bloom-release-action@main
+        uses: esteve/release-ros-robot@v0
         with:
           mode: release
           repository: rosidl_rust
@@ -58,13 +60,13 @@ jobs:
       cancel-in-progress: false
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           persist-credentials: false
 
       - name: Update release PR
-        uses: esteve/bloom-release-action@main
+        uses: esteve/release-ros-robot@v0
         with:
           mode: prepare
           base-branch: main
